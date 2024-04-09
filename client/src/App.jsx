@@ -1,12 +1,13 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Signin from './pages/Signin'
-import Dashboard from './pages/Dashboard'
-import Projects from './pages/Projects'
-import SignUp from './pages/Signup'
-import Header from './components/Header'
+import { BrowserRouter, Routes, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+import Dashboard from './pages/Dashboard';
+import Projects from './pages/Projects';
+import Header from './components/Header';
+import SignUp from './pages/Signup';
+import SignIn from './pages/SignIn';
+
 
 export default function App() {
     return (
@@ -16,7 +17,7 @@ export default function App() {
 
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/sign-in' element={<Signin />} />
+          <Route path='/sign-in' element={<SignIn />} />
           <Route path='/sign-up' element={<SignUp />} />
           <Route path='/dashboard' element={<Dashboard />} />
           <Route path='/projects' element={<Projects />} />
