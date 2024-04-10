@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Header from './components/Header';
 import SignUp from './pages/Signup';
 import SignIn from './pages/SignIn';
+import Footer from './components/Footer';
 
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
           <Route path='/projects' element={<Projects />} />
 
         </Routes>
+        <Footer />
 
       </BrowserRouter>
     )
