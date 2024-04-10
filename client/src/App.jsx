@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Header from './components/Header';
 import SignUp from './pages/Signup';
 import SignIn from './pages/SignIn';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 
 export default function App() {
